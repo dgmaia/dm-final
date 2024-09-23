@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css/styles.css");
-  eleventyConfig.addPassthroughCopy("src/js/learning.js");
+  eleventyConfig.addPassthroughCopy("src/js/parallax.js");
 
   eleventyConfig.addCollection("pages", function (api) {
     var pages = api.getFilteredByTag("pages").sort((a, b) => {
